@@ -1,0 +1,93 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('./../assets/bg.jpg') center center no-repeat fixed;
+  height: 100vh;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav-container {
+  margin: 20px auto;
+}
+
+.jumbotron {
+  background-color: #f3f4f7;
+  padding: 2rem;
+}
+
+.heading {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.bestof-container {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bestof-container .input, .bestof-container .bestof-button {
+  margin: 10px 0;
+  width: 20%;
+  height: 36px;
+  border: none;
+  padding: 2px 16px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  outline: none;
+}
+
+.bestof-container .bestof-button {
+  background: #bd54a4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bestof-container .bestof-button:hover {
+  background: #c561ae;
+}
+
+.bestof-container .bestof-button:active {
+  background: #d86bbe;
+}
+
+.bestof-result{
+  position: fixed;
+  top: 120%;
+  width: 50%;
+}
+
+.table,td{
+  margin: 16px 0;
+  border: 1px solid black;
+  background-color: rgb(192,192,192);
+  overflow: hidden;
+  padding: 0 16px;
+  width:auto;
+}
+
+.table-header{
+  text-align: center; 
+  font:"Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bottom-right{
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+}

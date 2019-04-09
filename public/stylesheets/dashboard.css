@@ -1,0 +1,51 @@
+.user-container {
+  margin-top: 2rem;
+}
+
+.table, td{
+  text-align: left;
+  border: 1px solid black;
+  background-color: rgb(192,192,192);
+  overflow: hidden;
+  padding: 0 12px;
+  width: 100%
+}
+
+.table-header{
+  text-align: center; 
+  font:"Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accordion {
+  background-color: rgb(214, 214, 214);
+  color: #444;
+  cursor: pointer;
+  padding: 3px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 12px;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}

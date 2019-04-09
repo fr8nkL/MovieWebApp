@@ -1,0 +1,9 @@
+.reference-container {
+  margin-top: 2rem;
+}
+
+.bottom-right{
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+}
